@@ -8,7 +8,7 @@ class HomeController < ApplicationController
     dev = 'siva'
     if dev == 'siva'
       puts 'ROR Dev'
-    else if dev == 'SG'
+    elsif dev == 'SG'
       puts 'React'
     end
   end
